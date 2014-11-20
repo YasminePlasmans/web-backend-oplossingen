@@ -3,14 +3,11 @@
 	$jaartal = 2400;
 	$schrikkeljaar = false;
 
-	if($jaartal %4 == 0 && (!$jaartal %100 == 0) && $jaartal %400 == 0){
+	if( ( $jaartal %4 == 0 && $jaartal %100 != 0) || $jaartal %400 == 0){
 		$schrikkeljaar = true;
 	}
-	else{
-		$schrikkeljaar = false;
-	}
-// Tekst opstellen
 
+	// Tekst opstellen
 	$schrikkelTekst = '';
 	if($schrikkeljaar == true){
 		$schrikkelTekst = 'een';
