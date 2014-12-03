@@ -1,0 +1,25 @@
+@import '_normalize.scss';
+@import '_variables.scss';
+@import '_mixin.scss';
+
+$width: 1024px;
+$margin:6px;
+
+body{
+	background-color:	$primary-color;
+	font-size:	20px;
+}
+
+p{
+	background-color: $secondary-color;
+}
+
+.test{
+	background-color: $secondary-color;
+	@include border-radius (5px);
+}
+.container{
+	margin:0 auto;
+	width:$width - $margin * 2;
+}
+@import '_header.scss';
