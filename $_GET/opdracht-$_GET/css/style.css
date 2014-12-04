@@ -1,0 +1,53 @@
+/* line 4, scss/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, scss/style.scss */
+h1 {
+  margin: 0;
+}
+
+/* line 11, scss/style.scss */
+.title {
+  padding: 20px 0 20px 0;
+  width: 350px;
+  margin: 0 auto;
+}
+
+/* line 16, scss/style.scss */
+.small {
+  width: 250px;
+  margin: 0 20px;
+  background-color: #aaaaaa;
+  float: left;
+  padding: 15px;
+}
+/* line 22, scss/style.scss */
+.small img {
+  width: 200px;
+  display: block;
+}
+
+/* line 27, scss/style.scss */
+.big {
+  background-color: #aaaaaa;
+  padding: 15px;
+}
+/* line 30, scss/style.scss */
+.big img {
+  width: 500px;
+}
+
+/* line 34, scss/style.scss */
+.position {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* line 38, scss/style.scss */
+.date {
+  padding: 0;
+  margin: 0;
+}

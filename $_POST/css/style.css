@@ -1,0 +1,47 @@
+/* line 1, sass/style.scss */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 5, sass/style.scss */
+li {
+  list-style: none;
+}
+
+/* line 9, sass/style.scss */
+label {
+  display: block;
+}
+
+/* line 12, sass/style.scss */
+input[type='text'] {
+  width: 200px;
+}
+
+/* line 15, sass/style.scss */
+input[type='password'] {
+  width: 200px;
+}
+
+/* line 18, sass/style.scss */
+input[type='submit'] {
+  width: 200px;
+  margin-top: 20px;
+}
+
+/* line 22, sass/style.scss */
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* line 26, sass/style.scss */
+p.correct {
+  color: green;
+}
+
+/* line 29, sass/style.scss */
+p.wrong {
+  color: red;
+}
