@@ -113,7 +113,6 @@
      	<div class="title">
      		<h1>Opdracht $_GET artikels</h1>
      	</div>
-
      	<div class="position">
      		<?php if(!$noneExistingArticle): ?>
      		<?php foreach ( $articles as $key => $artikel ): ?>

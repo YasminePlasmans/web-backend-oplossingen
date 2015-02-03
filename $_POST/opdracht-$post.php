@@ -29,7 +29,7 @@
      <body>
      	<div class="container">
      		<h1>Log in</h1>
-     	    <form action="" method="POST">                          
+     	    <form action="opdracht-$post.php" method="POST">                          
      	       <ul>
      	           <li>
      	               <label for="username">Gebruikersnaam</label>

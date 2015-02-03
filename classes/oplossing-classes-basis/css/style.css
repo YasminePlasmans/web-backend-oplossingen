@@ -1,0 +1,16 @@
+table
+	{
+		border-collapse:collapse;
+
+	}
+
+	td
+	{
+		padding:5px;
+		border:1px solid #000;
+	}
+
+	td:last-child
+	{
+		text-align:right;
+	}

@@ -92,6 +92,23 @@
 		}		
 	}
 
+	$search = false;
+	$needle = '';
+	$inArray = false;
+
+	if ( isset($_POST['search'])){
+		$search = true;
+	}
+	if($search == true){
+		$needle = $_POST['searchNeedle'];
+		foreach($articles as $key => $value){
+			if( strpos($articles[$key]['Content'], $needle) !== false){
+				$inArray = true;
+			}
+		}
+	}
+	
+	var_dump($inArray);
  ?>
  <!doctype html>
  <html>
@@ -113,7 +130,13 @@
      	<div class="title">
      		<h1>Opdracht $_GET artikels</h1>
      	</div>
-
+     	<div class="position form">
+     		<form action="" method="POST">
+     			<label for="search">Zoek een artikel</label>
+     			<input type="text" name="searchNeedle" id="search" />
+     			<input type="submit" name="search" value="Search" id="search" />
+     		</form>
+     	</div>
      	<div class="position">
      		<?php if(!$noneExistingArticle): ?>
      		<?php foreach ( $articles as $key => $artikel ): ?>
