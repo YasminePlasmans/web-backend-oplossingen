@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.eot');
+    src: url('../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-regular-webfont.woff') format('woff'),
+         url('../fonts/quicksand-regular-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	margin:0;
+	padding:0;
+	font-family: 'quicksandregular';
+}
+h1,h2,h3{
+	margin:0;
+	padding: 25px 0 0 0;
+}
+
+p{
+	display: inline;
+}
+a{
+	text-decoration: none;
+}
+.content{
+	width:500px;
+	margin:auto;
+	height:100vh;
+	background-color: lightgrey;
+	margin-top:0;
+	margin-bottom:0;
+	padding:0 20px 0 20px;
+}
+li{
+	margin:0 10px 0 10px;
+}
+form{
+	margin-top: 25px;
+}
+.todo{
+	text-align: center;
+}
+.fa-check{
+	color:green;
+}
+.fa-times{
+	color:red;
+}
+.newTask{
+	margin-top:25px;
+}
+.picture{
+	margin:auto;
+	margin-top:25px;
+}
+.nav{
+	text-align: center;
+	padding-top:25px;
+}
+.row{
+	padding-top: 25px;
+}

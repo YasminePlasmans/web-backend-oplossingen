@@ -1,0 +1,61 @@
+td{
+	padding:5px;
+}
+th{
+	background-color:lightgrey;
+	padding: 5px;
+}
+.modal
+{
+	padding			:	6px;
+	border-radius	:	3px;
+}
+
+.success
+{
+	background-color:lightgreen;
+}
+
+.error
+{
+	background-color:red;
+}
+
+.even
+{
+	background-color:#EEE;
+}
+
+.delete-button
+{
+	background-color	:	transparent;
+	border				:	none;
+	padding				:	0px;
+	cursor				:	pointer;
+}
+
+.confirm-delete
+{
+	background-color	:	red;
+	color				: 	white;
+}
+
+.order a
+{
+	padding-right:20px;
+}
+
+.ascending a::after
+{
+	content: url('icon-asc.png');
+}
+
+.descending a::after
+{
+	content: url('icon-desc.png');
+}
+
+.selected
+{
+	background-color	:	lightgreen;
+}
